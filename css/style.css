@@ -57,10 +57,10 @@ body {
   margin: 0;
   padding: 0;
 }
-
+/* 
 html {
   min-width: 1160px;
-}
+} */
 
 body {
   width: 100%;
@@ -645,4 +645,12 @@ input[type="number"] {
   color: var(--color-gray-lighter);
 
   cursor: not-allowed;
+}
+
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 0 10px;
+  }
+  
 }
